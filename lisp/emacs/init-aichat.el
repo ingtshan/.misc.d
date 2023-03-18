@@ -1,4 +1,4 @@
-;;; lib/misc/lisp/doom/init-aichat.el -*- lexical-binding: t; -*-
+;;; lib/misc/lisp/init-aichat.el -*- lexical-binding: t; -*-
 
 ;;;
 ;; (setq aichat-openai-proxy "localhost:8080")

@@ -201,4 +201,13 @@
                           +lookup-implementations-functions '(lsp-bridge-find-impl t)
                           +lookup-references-functions '(lsp-bridge-find-references t))))
 
+(add-hook 'ruby-mode-hook
+          #'(lambda()
+              (unless (string-match "\*org-src-fontification:" (buffer-name))
+                (company-mode -1)
+                (lsp-bridge-mode))
+              (setq-local +lookup-definition-functions '(lsp-bridge-find-def t)
+                          +lookup-implementations-functions '(lsp-bridge-find-impl t)
+                          +lookup-references-functions '(lsp-bridge-find-references t))))
+
 (provide 'init-lsp-bridge)
