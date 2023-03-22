@@ -51,3 +51,5 @@ brew install proxychains-ng # optional for proxy
 ``` emacs-lisp
 (custom/borg-assimilate "github" "xuchunyang/translate-shell.el")
 ```
+## Consult Notes
+- custom-consult-notes: use consult-notes way to return note file path
