@@ -41,6 +41,10 @@
 ;; I make mistake here (after! scss-mode (`neve execute because of css-mode instead of scss-mode') )
 (after! css-mode (add-hook 'scss-mode-hook #'projectile-rails-mode 'append))
 
+(add-to-list 'auto-mode-alist '("\\.json.jb\\'" . ruby-mode) 'append)
+
+;; other files
+
 ;; (dolist (mode '("slim-mode" "rjsx-mode" "scss-mode"))
 ;;   (after! (intern mode) (add-hook (intern (concat "slim-mode" "-hook")) #'projectile-rails-mode)))
 

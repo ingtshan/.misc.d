@@ -146,16 +146,16 @@
 ;;; key binding
 
 ;;; enable in major mode below
-(add-hook 'org-mode-hook
-          #'(lambda()
-              (setq-local corfu-auto nil)
+;; (add-hook 'org-mode-hook
+;;           #'(lambda()
+              ;; (setq-local corfu-auto nil)
               ;;(setq-local acm-enable-english-helper t)
               ;;(setq lsp-bridge-enable-org-babe t)
-              (company-mode -1)
-              (lsp-bridge-mode)
+              ;; (company-mode -1)
+              ;; (lsp-bridge-mode)
               ;;(setq-local completion-at-point-functions (list  (cape-super-capf  #'cape-dict #'cape-dabbrev)))
               ;;(setq-local +lsp-company-backends '(company-capf company-dabbrev-code company-ispell :separate))
-              ))
+              ;; ))
 
 (add-hook 'tex-mode-hook
           #'(lambda()

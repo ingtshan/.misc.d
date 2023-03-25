@@ -1,7 +1,7 @@
 # .misc.d
 Misc emacs-lisp files for my DoomEmacs [configuration](https://github.com/ingtshan/.doom.d)
 
-## lisp/doom/*.el
+## doom/*.el
 Those files base on lib of doom, only can load under doom envrioment (such as `load!` or `require` origin file after doom loaded)
 
 ## Reference
