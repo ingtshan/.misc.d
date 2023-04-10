@@ -63,3 +63,7 @@ brew install proxychains-ng # optional for proxy
 (custom/borg-assimilate "github" "xhcoding/emacs-aichat")
 (custom/borg-assimilate "github" "manateelazycat/mind-wave")
 ```
+## Deadgrep
+自定义实现
+1. 搜索历史
+2. 更好的跳回
