@@ -39,7 +39,7 @@
                                   (prompt &optional a b c history sym-name d)
                                   (original-read-from-minibuffer
                                    prompt a b c history sym-name d)))
-                                (completing-read prompt (eval history) sym-name))))
+                                (completing-read prompt (eval history) nil nil sym-name))))
                         (deadgrep--read-search-term))))
     (funcall-interactively #'deadgrep search-term directory)))
 
